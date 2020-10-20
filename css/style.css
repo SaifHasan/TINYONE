@@ -1,0 +1,295 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+
+/* coding part start here */
+
+.header-section {
+    width: 100%;
+    background: url("../images/hbg.png") center top no-repeat;
+    background-size: cover;
+}
+
+.header-section .bg-light {
+    background: transparent !important;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-weight: 700;
+    padding: 0px 41px 0px 40px;
+    font-size: 18px;
+    /* margin--right: 24px;
+    margin-right: 11px; */
+}
+
+.banner-inner {
+    padding: 100px 20px;
+}
+
+.banner-inner h1 {
+    font-weight: 600;
+    margin-bottom: 21px;
+}
+
+.banner-inner h6 {
+    margin-bottom: 16px;
+}
+
+.banner-inner p {
+    margin-bottom: 45px;
+}
+
+.banner-inner .fa {
+    color: black;
+    font-size: 32px;
+    padding: 0px 13px 0px 0px;
+}
+
+.mobile {
+    padding: 31px 0px 0px 43px;
+    margin-bottom: 100px;
+}
+
+.mobile img {
+    width: 300px;
+}
+
+
+/* banner-section code start here */
+
+.banner-section {}
+
+.banner-section .title {
+    padding: 44px 0px;
+    text-align: center;
+}
+
+.banner-section .title h1 {
+    font-size: 28px;
+}
+
+.banner-section .title p {
+    font-size: 16px;
+}
+
+.banner-section .media {}
+
+.banner-section .media .fa {
+    color: black;
+    font-size: 55px;
+    margin-right: 23px;
+}
+
+.banner-section .media .media-body {
+    margin-bottom: 100px;
+}
+
+.banner-section .media .media-body h5 {
+    font-weight: 600;
+}
+
+.submit-section {
+    width: 100%;
+    background: url(../images/f.png) center top no-repeat;
+    background-size: cover;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.submit-section .title {}
+
+.submit-section .title h1 {
+    color: #fcdb00;
+}
+
+.submit-section .title p {
+    color: #898989;
+    margin-bottom: 54px;
+}
+
+.wrapper .input {
+    width: 482px;
+    border-radius: px;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.wrapper .container {
+    margin-left: 28%;
+}
+
+.wrapper .close-btn {
+    margin-left: 10px;
+    padding: 6px 30px;
+    background: #fcdb00;
+    color: black;
+    font-weight: 600;
+}
+
+.inner-widget1 {
+    padding: 45px 0px 45px 9px;
+    text-align: left;
+    /* margin-left: 10px; */
+    margin-top: 40px;
+}
+
+.inner-widget1 a {
+    color: white;
+    /* font-weight: 600; */
+    font-size: 17px;
+    text-align: left;
+}
+
+.inner-widget1 a:hover {
+    color: #fcdb00;
+    text-decoration: none;
+}
+
+.inner-widget1 p {
+    color: white;
+    text-align: left;
+}
+
+.icon .fa {
+    font-size: 26px;
+    padding: 5px 5px;
+    background: #fcdb00;
+    margin: 16px 5px;
+    border-radius: 5px;
+    color: black;
+}
+
+
+/* ****css media query**** */
+
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .banner-inner h1 {
+        font-weight: 600;
+        margin-bottom: 21px;
+        font-size: 25px;
+    }
+    .mobile {
+        padding: 29px 0px 0px 43px;
+        margin-bottom: 100px;
+    }
+    .banner-section .media .media-body {
+        margin-bottom: 50px;
+    }
+    .wrapper .input {
+        width: 275px;
+        border-radius: px;
+        padding: 7px;
+        border-radius: 5px;
+        margin-bottom: 17px;
+    }
+    .wrapper .container {
+        margin-left: 0%;
+    }
+}
+
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .banner-inner {
+        padding: 100px 20px;
+    }
+    .banner-inner h1 {
+        font-weight: 600;
+        margin-bottom: 21px;
+    }
+    .banner-inner h6 {
+        margin-bottom: 16px;
+    }
+    .banner-inner p {
+        margin-bottom: 45px;
+    }
+    .mobile {
+        padding: 0px 0px 0px 98px;
+        margin-bottom: 78px;
+    }
+    .banner-section .media .media-body {
+        margin-bottom: 50px;
+    }
+    .wrapper .input {
+        width: 300px;
+        border-radius: px;
+        padding: 7px;
+        border-radius: 5px;
+    }
+    .wrapper .container {
+        margin-left: 0%;
+    }
+    .wrapper .close-btn {
+        margin-left: 10px;
+        padding: 6px 30px;
+        background: #fcdb00;
+        color: black;
+        margin-top: 12px;
+        font-weight: 600;
+    }
+    .inner-widget1 {
+        padding: 0px 0px 0px 0px;
+        text-align: left;
+        /* margin-left: 10px; */
+        margin-top: 15px;
+    }
+    .inner-widget1 a {
+        color: white;
+        /* font-weight: 600; */
+        font-size: 15px;
+        text-align: left;
+    }
+    .inner-widget1 a:hover {
+        color: #fcdb00;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    .inner-widget1 p {
+        color: white;
+        text-align: left;
+        font-size: 15px;
+    }
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    //CSS
+}
